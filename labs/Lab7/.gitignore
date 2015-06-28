@@ -1,0 +1,10 @@
+*.tar*
+*root_fs
+*.bz2*
+linux-3.18.8
+*.cmd
+*.symvers
+.tmp*
+*.order
+*.mod.c
+*.swp

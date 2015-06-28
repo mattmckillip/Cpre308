@@ -1,0 +1,2 @@
+#! /bin/bash
+cho $0 'was called with ' $# 'arguments'

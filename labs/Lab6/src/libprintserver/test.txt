@@ -1,0 +1,10 @@
+%
+this
+is 
+my
+test
+file
+for command
+line 
+printer
+%EOF

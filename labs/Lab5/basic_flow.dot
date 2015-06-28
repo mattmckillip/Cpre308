@@ -1,0 +1,17 @@
+digraph data_flow {
+	rankdir=LR;
+	size="8,5"
+	Input -> Producer_Thread [ label = "stdin" ];
+	Producer_Thread -> Queue1 [ label = "queue_push()" ];
+	Producer_Thread -> Queue2 [ label = "queue_push()" ];
+	Queue1 -> Spooler1 [ label = "queue_pop()" ];
+	Queue1 -> Spooler2 [ label = "queue_pop()" ];
+	Queue1 -> Spooler3 [ label = "queue_pop()" ];
+	Queue2 -> Spooler4 [ label = "queue_pop()" ];
+	Queue2 -> Spooler5 [ label = "queue_pop()" ];
+	Spooler1 -> Printer1 [ label = "printer1->print()" ];
+	Spooler2 -> Printer2 [ label = "printer2->print()" ];
+	Spooler3 -> Printer3 [ label = "printer3->print()" ];
+	Spooler4 -> Printer4 [ label = "printer4->print()" ];
+	Spooler5 -> Printer5 [ label = "printer5->print()" ];
+}
