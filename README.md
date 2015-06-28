@@ -1,4 +1,4 @@
-# ComS308 - Spring 2015
+# Cpre308 - Spring 2015
 Operating Systems: Principles and Practice
 
 ## Course Goals:
